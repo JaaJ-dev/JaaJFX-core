@@ -42,10 +42,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation group: 'junit', name: 'junit', version: '4.12'
-    implementation 'org.jfxtras:jmetro:11.6.11'
-    implementation 'net.java.dev.jna:jna-platform:5.5.0'
-    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.28'
+    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+    implementation 'org.jfxtras:jmetro:11.6.15'
+    implementation 'net.java.dev.jna:jna-platform:5.8.0'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.32'
     implementation 'dev.jaaj:event:0.1.9'
 }
 
